@@ -1,0 +1,94 @@
+/*
+I-sektionen
+@theme-primary: #153072;
+@theme-light: white;
+@theme-secondary: white;
+@theme-dark: #222;
+@theme-background: "";
+*/
+/*
+@theme-primary: #DDD;
+@theme-light: #666;
+@theme-secondary: #444;
+@theme-dark: #222;
+@theme-background: "";
+*/
+* {
+  font-family: 'Open Sans' !important;
+  font-weight: 300;
+}
+.navbar {
+  height: 120px;
+  line-height: 100px;
+}
+.navbar-logo {
+  height: 90px;
+}
+.navbar-brand {
+  line-height: 120px;
+}
+.navbar-nav li a {
+  line-height: 100px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+.welcome,
+.list-header {
+  margin-top: -20px;
+  height: 500px;
+  background-attachment: fixed;
+  background-color: #FBCB13;
+  background-image: url("../img/datasekt-bg3.png");
+  background-repeat: repeat;
+  box-shadow: inset 0px 0px 2px black;
+}
+.welcome h1,
+.list-header h1 {
+  margin-top: 100px;
+  font-size: 64px;
+  color: #9E1B20;
+}
+.list-header {
+  height: 120px;
+}
+.list-header h1 {
+  margin-top: 20px;
+  text-align: right;
+}
+p {
+  font-size: 18px;
+}
+.profile-photo {
+  width: auto;
+  max-height: 140px;
+}
+.btn-primary {
+  background-color: #FBCB13;
+  border: none;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #a58403;
+  color: white;
+}
+.primary-stats {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FBCB13;
+  min-height: 500px;
+  color: white;
+  text-align: center;
+}
+.primary-stats h2 {
+  font-size: 52px;
+}
+.primary-stats h5 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}

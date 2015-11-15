@@ -1,0 +1,76 @@
+// out: ../css/theme.css, sourcemap: False, compress: False
+@import "variables.less";
+* {
+  font-family: 'Open Sans' !important;
+  font-weight: 300;
+}
+.navbar {
+  height: 120px;
+  line-height: 100px;
+}
+.navbar-logo {
+  height: 90px;
+}
+.navbar-brand {
+  line-height: 120px;
+}
+.navbar-nav li a {
+  line-height: 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+.welcome, .list-header {
+  margin-top: -20px;
+  height: 500px;
+  background-attachment: fixed;
+  background-color: @theme-primary;
+  background-image: url(@theme-background);
+  background-repeat: repeat;
+  box-shadow: inset 0px 0px 2px black;
+  h1 {
+    margin-top: 100px;
+    font-size: 64px;
+    color: @theme-secondary;
+  }
+}
+.list-header {
+  height: 120px;
+  h1 {
+    margin-top: 20px;
+    text-align: right;
+  }
+}
+
+p {
+  font-size: 18px;
+}
+.profile-photo {
+  width: auto;
+  max-height: 140px;
+}
+.btn-primary {
+  background-color: @theme-primary;
+  border: none;
+  color: @theme-light;
+}
+.btn-primary:hover {
+  background-color: darken(@theme-primary, 20%);
+  color: @theme-light;
+}
+.primary-stats {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: @theme-primary;
+  min-height: 500px;
+  color: @theme-light;
+  text-align: center;
+}
+.primary-stats h2 {
+  font-size: 52px;
+}
+.primary-stats h5 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
